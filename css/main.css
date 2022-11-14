@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 390px;
+}
+
+h1, h2, h3, h4,p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+address {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapperlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.list {
+    width: 33%;
+}
+
+.posts {
+    width: 33%;
+}
+
+.comments {
+    width: 33%;
+}
